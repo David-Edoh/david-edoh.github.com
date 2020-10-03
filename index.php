@@ -19,36 +19,6 @@
       <h5 class="section-title h1">Virtual Galleries</h5>
       <div class="row">
 
-          <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="image-flip" >
-                  <div class="mainflip flip-0">
-                      <div class="frontside">
-                          <div class="card">
-                              <div class="text-center">
-                                  <p>
-                                    <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
-                                  </p>
-                                  <h4 class="card-title"> Prizm </h4>
-                              </div>
-                          </div>
-                      </div>
-                    <div class="backside">
-                        <div class="card ">
-                            <div class="card-body text-center mt-4">
-                            <h4 class="card-title">Prizm</h4>
-                                  <p class="card-text">Prizm, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
-                                  <ul class="list-inline">
-                                      <li class="list-inline-item">
-                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadPrizm()"> Tour <i class="fa fa-eye"></i> </button>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>            
-        </div>
-
       <div class="col-xs-12 col-sm-6 col-md-4">
               <div class="image-flip" >
                   <div class="mainflip flip-0">
@@ -59,22 +29,92 @@
                                     <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
                                   </p>
                                   <h4 class="card-title"> Abstract Artwork </h4>
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAbstract()"> View <i class="fa fa-eye"></i> </button>
+                                  <hr style="opacity: 0">
                               </div>
                           </div>
                       </div>
-                    <div class="backside">
-                        <div class="card ">
+                    <!-- <div class="backside">
+                        <div class="card " style="height: 100%; width: 100%;">
                             <div class="card-body text-center mt-4">
                             <h4 class="card-title">Abstract Artwork</h4>
                                   <p class="card-text">Abstract, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
-                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAbstract()"> Tour <i class="fa fa-eye"></i> </button>
+                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAbstract()"> View <i class="fa fa-eye"></i> </button>
                                       </li>
                                   </ul>
                               </div>
                           </div>
+                      </div> -->
+                  </div>
+              </div>
+        </div>
+
+
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" >
+                  <div class="mainflip flip-0">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="text-center">
+                                  <p>
+                                    <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
+                                  </p>
+                                  <h4 class="card-title"> Prizm </h4>
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadPrizm()"> View <i class="fa fa-eye"></i> </button>
+                                  <hr style="opacity: 0">
+                              </div>
+                          </div>
                       </div>
+                    <!-- <div class="backside">
+                        <div class="card " style="height: 100%; width: 100%;">
+                            <div class="card-body text-center mt-4">
+                            <h4 class="card-title">Prizm</h4>
+                                  <p class="card-text">Prizm, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item">
+                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadPrizm()"> View <i class="fa fa-eye"></i> </button>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div> -->
+                  </div>
+              </div>            
+        </div>
+    
+  
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+              <div class="image-flip" >
+                  <div class="mainflip flip-0">
+                      <div class="frontside">
+                          <div class="card">
+                              <div class="text-center">
+                                  <p>
+                                    <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
+                                  </p>
+                                  <h4 class="card-title"> Cuban </h4>
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadCuban()"> View <i class="fa fa-eye"></i> </button>
+                                  <hr style="opacity: 0">
+                              </div>
+                          </div>
+                      </div>
+                    <!-- <div class="backside">
+                        <div class="card " style="height: 100%; width: 100%;">
+                            <div class="card-body text-center mt-4">
+                            <h4 class="card-title">Cuban</h4>
+                                  <p class="card-text">Cuban, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
+                                  <ul class="list-inline">
+                                      <li class="list-inline-item">
+                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadCuban()"> View <i class="fa fa-eye"></i> </button>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div> -->
                   </div>
               </div>
         </div>
@@ -89,52 +129,25 @@
                                     <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
                                   </p>
                                   <h4 class="card-title"> Knowledge Bennet </h4>
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadBennet()"> View <i class="fa fa-eye"></i> </button>
+                                  <hr style="opacity: 0">
+
                               </div>
                           </div>
                       </div>
-                    <div class="backside">
-                        <div class="card ">
+                    <!-- <div class="backside">
+                        <div class="card " style="height: 100%; width: 100%;">
                             <div class="card-body text-center mt-4">
                             <h4 class="card-title">Knowledge Bennet</h4>
                                   <p class="card-text">Knowledge Bennet, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
-                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadBennet()"> Tour <i class="fa fa-eye"></i> </button>
+                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadBennet()"> View <i class="fa fa-eye"></i> </button>
                                       </li>
                                   </ul>
                               </div>
                           </div>
-                      </div>
-                  </div>
-              </div>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-4">
-              <div class="image-flip" >
-                  <div class="mainflip flip-0">
-                      <div class="frontside">
-                          <div class="card">
-                              <div class="text-center">
-                                  <p>
-                                    <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
-                                  </p>
-                                  <h4 class="card-title"> Cuban </h4>
-                              </div>
-                          </div>
-                      </div>
-                    <div class="backside">
-                        <div class="card ">
-                            <div class="card-body text-center mt-4">
-                            <h4 class="card-title">Cuban</h4>
-                                  <p class="card-text">Cuban, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
-                                  <ul class="list-inline">
-                                      <li class="list-inline-item">
-                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadCuban()"> Tour <i class="fa fa-eye"></i> </button>
-                                      </li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
+                      </div> -->
                   </div>
               </div>
         </div>
@@ -149,23 +162,24 @@
                                     <img class=" img-fluid" src="images/tate.jpeg" alt="galleryb img">
                                   </p>
                                   <h4 class="card-title"> Alison Milne </h4>
+                                  <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAlison()"> View <i class="fa fa-eye"></i> </button>
+                                  <hr style="opacity: 0">
                               </div>
                           </div>
                       </div>
-                    <div class="backside">
-                        <div class="card ">
+                    <!-- <div class="backside">
+                        <div class="card " style="height: 100%; width: 100%;">
                             <div class="card-body text-center mt-4">
                             <h4 class="card-title">Alison Milne</h4>
                                   <p class="card-text">Alison Milne, is the world's largest art museum and a historic monument in spain. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement.</p>
                                   <ul class="list-inline">
                                       <li class="list-inline-item">
-                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAlison()"> Tour <i class="fa fa-eye"></i> </button>
-                                      <!-- <h4>Coming Soon</h4> -->
+                                      <button class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter" onclick="loadAlison()"> View <i class="fa fa-eye"></i> </button>
                                       </li>
                                   </ul>
                               </div>
                           </div>
-                      </div>
+                      </div> -->
                   </div>
               </div>
         </div>
@@ -183,19 +197,19 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
         <div id="unity-container" class="unity-desktop">
-        <canvas id="unity-canvas"></canvas>
-        <div id="unity-loading-bar">
-            <!-- <div id="unity-logo"></div> -->
-            <h4 style="color: white;">Loading...</h4>
-            <div id="unity-progress-bar-empty">
-            <div id="unity-progress-bar-full"></div>
-            </div>
-        </div>
-        <div id="unity-footer">
-            <!-- <div id="unity-webgl-logo"></div> -->
-            <div id="unity-fullscreen-button"></div>
-            <div id="unity-build-title">Wide Screen</div>
-        </div>
+          <canvas id="unity-canvas"></canvas>
+          <div id="unity-loading-bar">
+              <!-- <div id="unity-logo"></div> -->
+              <h4 style="color: white;">Loading...</h4>
+              <div id="unity-progress-bar-empty">
+              <div id="unity-progress-bar-full"></div>
+              </div>
+          </div>
+          <div id="unity-footer">
+              <!-- <div id="unity-webgl-logo"></div> -->
+              <div id="unity-fullscreen-button"></div>
+              <div id="unity-build-title">Wide Screen</div>
+          </div>
         </div>
       </div>
     </div>
