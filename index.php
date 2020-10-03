@@ -16,7 +16,7 @@
 <!-- Team -->
 <section id="team" class="pb-5">
   <div class="container">
-      <h5 class="section-title h1">Galleries</h5>
+      <h5 class="section-title h1">Virtual Galleries</h5>
       <div class="row">
 
           <div class="col-xs-12 col-sm-6 col-md-4">
