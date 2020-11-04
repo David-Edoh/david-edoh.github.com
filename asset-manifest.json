@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5954d48c.chunk.css",
+    "main.js": "/static/js/main.c3265513.chunk.js",
+    "main.js.map": "/static/js/main.c3265513.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9d9772c9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9d9772c9.js.map",
+    "static/css/2.41b1c239.chunk.css": "/static/css/2.41b1c239.chunk.css",
+    "static/js/2.b91f5f4a.chunk.js": "/static/js/2.b91f5f4a.chunk.js",
+    "static/js/2.b91f5f4a.chunk.js.map": "/static/js/2.b91f5f4a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d5e84e8feeb3eed7919748d4755fc960.js": "/precache-manifest.d5e84e8feeb3eed7919748d4755fc960.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.41b1c239.chunk.css.map": "/static/css/2.41b1c239.chunk.css.map",
+    "static/css/main.5954d48c.chunk.css.map": "/static/css/main.5954d48c.chunk.css.map",
+    "static/js/2.b91f5f4a.chunk.js.LICENSE.txt": "/static/js/2.b91f5f4a.chunk.js.LICENSE.txt",
+    "static/media/pannellum.css": "/static/media/sprites.f37aa8ca.svg",
+    "static/media/bennet.jpg": "/static/media/bennet.dc7be377.jpg",
+    "static/media/cuban.jpg": "/static/media/cuban.ad8991de.jpg",
+    "static/media/panorama1.png": "/static/media/panorama1.e1b9e746.png",
+    "static/media/panorama2.png": "/static/media/panorama2.0a0d5422.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9d9772c9.js",
+    "static/css/2.41b1c239.chunk.css",
+    "static/js/2.b91f5f4a.chunk.js",
+    "static/css/main.5954d48c.chunk.css",
+    "static/js/main.c3265513.chunk.js"
+  ]
+}
